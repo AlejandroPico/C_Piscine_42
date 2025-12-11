@@ -6,7 +6,7 @@
 /*   By: user <user@student.42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 13:00:24 by user              #+#    #+#             */
-/*   Updated: 2025/12/10 13:03:38 by user             ###   ########.fr       */
+/*   Updated: 2025/12/11 15:29:47 by apico-pe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ void	ft_print_numbers(void)
 		c++;
 	}
 }
-
+/*
 int	main(void)
 {
 	ft_print_numbers();
-}
+}*/

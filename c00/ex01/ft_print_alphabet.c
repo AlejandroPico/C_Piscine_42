@@ -6,7 +6,7 @@
 /*   By: user <user@student.42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 03:39:11 by user              #+#    #+#             */
-/*   Updated: 2025/12/10 04:18:49 by user             ###   ########.fr       */
+/*   Updated: 2025/12/11 15:28:22 by apico-pe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,9 @@ void	ft_print_alphabet(void)
 		n++;
 	}
 }
-
+/*
 int	main(void)
 {
 	ft_print_alphabet();
 	return 0;
-}
+}*/

@@ -6,7 +6,7 @@
 /*   By: user <user@student.42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 04:26:02 by user              #+#    #+#             */
-/*   Updated: 2025/12/10 04:37:28 by user             ###   ########.fr       */
+/*   Updated: 2025/12/11 15:30:16 by apico-pe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ void	ft_is_negative(int n)
 		c = 'p';
 	write(1, &c, 1);
 }
-
+/*
 int	main(void)
 {
 	ft_is_negative(42);
 	ft_is_negative(-42);
 	ft_is_negative(0);
-}
+}*/
