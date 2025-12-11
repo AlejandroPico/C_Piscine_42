@@ -6,7 +6,7 @@
 /*   By: user <user@student.42barcelona.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/10 13:00:24 by user              #+#    #+#             */
-/*   Updated: 2025/12/11 15:29:47 by apico-pe         ###   ########.fr       */
+/*   Updated: 2025/12/11 15:59:19 by apico-pe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_print_numbers(void)
 	char	c;
 
 	c = '0';
-	while(c <= '9')
+	while (c <= '9')
 	{
 		write(1, &c, 1);
 		c++;
