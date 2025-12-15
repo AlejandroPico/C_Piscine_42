@@ -6,16 +6,21 @@
 /*   By: apico-pe <apico-pe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/15 11:46:26 by apico-pe          #+#    #+#             */
-/*   Updated: 2025/12/15 11:47:46 by apico-pe         ###   ########.fr       */
+/*   Updated: 2025/12/15 21:30:14 by apico-pe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_ft(int*nbr)
+void	ft_ft(int *nbr)
 {
-	program;
+	*nbr = 42;
 }
 
 int	main(void)
 {
-	ft_ft(42);
+	int	x;
+
+	x = 42;
+	ft_ft(&x);
+	write(1, x, 1);
+	return (0);
 }
